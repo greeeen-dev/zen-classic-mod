@@ -172,6 +172,7 @@
   }
 }
 
+/* 1.0.0-a.39 mode */
 @media (-moz-bool-pref: "custom.classic.39") {
   #tabs-newtab-button {
     background: light-dark( color-mix(in srgb, var(--zen-primary-color) 25%, transparent 75%), color-mix(in srgb, var(--zen-primary-color) 15%, transparent 85%) ) !important;
@@ -235,6 +236,17 @@
         margin-left: 9px !important;
         margin-right: 9px !important;
       }
+    }
+  }
+}
+
+/* Zen Dream/Galaxy */
+@media (-moz-bool-pref: "custom.classic.dream-galaxy") {
+  #browser {
+    background: radial-gradient(ellipse, var(--zen-browser-gradient-base, #1B1E27) 20%, rgb(255, 255, 255) 100%) !important;
+    
+    @media (prefers-color-scheme: dark) {
+      background: radial-gradient(ellipse, var(--zen-browser-gradient-base, #1B1E27) 20%, #1b1b1b 100%) !important;
     }
   }
 }
