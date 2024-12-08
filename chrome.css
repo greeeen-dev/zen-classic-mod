@@ -136,16 +136,9 @@
 
 #zen-sidebar-icons-wrapper {
   padding-top: 15px !important;
-  padding-bottom: 10px !important;
+  padding-bottom: 3px !important;
   display: grid !important;
   grid-template-columns: repeat(auto-fill, minmax(37px, 1fr)) !important;
-  
-  & toolbarbutton {
-    .toolbarbutton-icon {
-      width: 38px !important;
-      height: 38px !important;
-    }
-  }
   
   & #zen-profile-button {
     .toolbarbutton-icon {
@@ -204,6 +197,17 @@
     toolbarbutton .toolbarbutton-icon {
       width: calc(2 * var(--toolbarbutton-inner-padding) + 18px) !important;
       height: calc(2 * var(--toolbarbutton-inner-padding) + 18px) !important;
+    }
+  }
+  
+  #zen-sidebar-icons-wrapper {
+    padding-bottom: 4px !important;
+    
+    & toolbarbutton {
+      .toolbarbutton-icon {
+        width: 38px !important;
+        height: 38px !important;
+      }
     }
   }
   
