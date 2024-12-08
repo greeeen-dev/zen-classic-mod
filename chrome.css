@@ -198,6 +198,11 @@
       width: calc(2 * var(--toolbarbutton-inner-padding) + 18px) !important;
       height: calc(2 * var(--toolbarbutton-inner-padding) + 18px) !important;
     }
+    
+    .unified-extensions-item toolbarbutton stack .toolbarbutton-icon {
+      width: 16px !important;
+      height: 16px !important;
+    }
   }
   
   #zen-sidebar-icons-wrapper {
