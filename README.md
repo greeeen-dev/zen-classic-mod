@@ -12,7 +12,12 @@ userChrome.css file.
 Read the [guide for live editing Zen Browser](https://docs.zen-browser.app/guides/live-editing) for more
 details.
 
-## Options
+## Recommended settings (about:preferences)
+- "Show New Tab Button on Tab List" **enabled**
+- "Show separation border for when the new tab button is at the top" **disabled**
+- "Show border for the bottom icons" **enabled**
+
+## Mod options (about:config)
 - `custom.classic.39`: Enables 1.0.0-a.39 mode, which changes some styles to mimic that version better.
 
 ## Note
