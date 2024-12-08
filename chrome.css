@@ -178,6 +178,11 @@
       transform: scale(0.95, 0.95) !important;
     }
   }
+  
+  #tabbrowser-arrowscrollbox-periphery {
+    order: -1 !important;
+    margin-bottom: 10px;
+  }
 }
 
 @media not (-moz-bool-pref: "custom.classic.39") {
