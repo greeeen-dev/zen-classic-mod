@@ -154,6 +154,24 @@
   }
 }
 
+#TabsToolbar-customization-target {
+  padding-bottom: 15px;
+}
+
+#alltabs-button {
+  & .toolbarbutton-badge, .toolbarbutton-text {
+    display: none !important;
+  }
+  
+  & .toolbarbutton-badge-stack {
+    transform: rotate(-90deg) !important;
+    
+    @media (-moz-bool-pref: "zen.view.sidebar-expanded") {
+      background-color: transparent !important;
+    }
+  }
+}
+
 @media (-moz-bool-pref: "custom.classic.39") {
   #tabs-newtab-button {
     background: light-dark( color-mix(in srgb, var(--zen-primary-color) 25%, transparent 75%), color-mix(in srgb, var(--zen-primary-color) 15%, transparent 85%) ) !important;
@@ -197,11 +215,6 @@
     toolbarbutton .toolbarbutton-icon {
       width: calc(2 * var(--toolbarbutton-inner-padding) + 18px) !important;
       height: calc(2 * var(--toolbarbutton-inner-padding) + 18px) !important;
-    }
-    
-    .unified-extensions-item toolbarbutton stack .toolbarbutton-icon {
-      width: 16px !important;
-      height: 16px !important;
     }
   }
   
