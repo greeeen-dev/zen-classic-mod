@@ -19,6 +19,7 @@ details.
 
 ## Mod options (about:config)
 - `custom.classic.39`: Enables 1.0.0-a.39 mode, which changes some styles to mimic that version better.
+- `custom.classic.dream-galaxy`: Enables Zen Dream and Zen Galaxy themes.
 
 ## Note
 - Using this Mod will disable translucency effects on macOS (and possibly on Windows).
