@@ -78,21 +78,23 @@
   }
 }
 
-#zen-workspaces-button {
-  border: solid 1px var(--zen-colors-border) !important;
-  border-radius: 24px !important;
-  padding: 10px !important;
-  width: auto !important;
-  
-  .zen-workspace-sidebar-name {
-    font-size: 11px !important;
-  }
-  
-  @media not (-moz-bool-pref: "zen.view.sidebar-expanded") {
+@media not (-moz-bool-pref: "zen.workspaces.show-icon-strip") {
+  #zen-workspaces-button {
+    border: solid 1px var(--zen-colors-border) !important;
+    border-radius: 24px !important;
+    padding: 10px !important;
     width: auto !important;
-    height: 28px !important;
-    margin-left: 2px !important;
-    margin-right: 2px !important;
+
+    .zen-workspace-sidebar-name {
+      font-size: 11px !important;
+    }
+
+    @media not (-moz-bool-pref: "zen.view.sidebar-expanded") {
+      width: auto !important;
+      height: 28px !important;
+      margin-left: 2px !important;
+      margin-right: 2px !important;
+    }
   }
 }
 
@@ -205,10 +207,12 @@
     }
   }
   
-  #zen-workspaces-button {
-    @media (-moz-bool-pref: "zen.view.sidebar-expanded") {
-      margin-left: 9px !important;
-      margin-right: 9px !important;
+  @media not (-moz-bool-pref: "zen.workspaces.show-icon-strip") {
+    #zen-workspaces-button {
+      @media (-moz-bool-pref: "zen.view.sidebar-expanded") {
+        margin-left: 9px !important;
+        margin-right: 9px !important;
+      }
     }
   }
 }
