@@ -1,4 +1,9 @@
 # Zen Classic Mod
+> [!WARNING]
+> Zen Classic Mod is not compatible with the Beta version. Things may not work as intended.
+>
+> I will be making this compatible with Beta in the coming days.
+
 Send your Zen Browser back to the 1.0.0-a days for a feeling of nostalgia. Tested on 1.0.1-a.22.
 
 ![](https://github.com/greeeen-dev/zen-classic-mod/blob/main/image.png?raw=true)
