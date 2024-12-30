@@ -1,8 +1,6 @@
 # Zen Classic Mod
 > [!WARNING]
-> Zen Classic Mod is not compatible with the Beta version. Things may not work as intended.
->
-> I will be making this compatible with Beta in the coming days.
+> This project has been discontinued on December 30, 2024. No further updates will be made.
 
 Send your Zen Browser back to the 1.0.0-a days for a feeling of nostalgia. Tested on 1.0.1-a.22.
 
